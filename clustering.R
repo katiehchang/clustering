@@ -13,7 +13,6 @@ head(wine)
 # Exercise 1: Remove the first column from the data and scale
 # it using the scale() function
 wineData <- wine[-c(1)]
-# wineData$Type <- NULL
 wineData <- scale(wineData)
 
 # Now we'd like to cluster the data using K-Means. 
